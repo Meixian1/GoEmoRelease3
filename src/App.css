@@ -1,0 +1,77 @@
+
+
+body{
+  background-color: rgba(237, 245, 10, 0.432);
+}
+.headTitle {
+  color:rgb(64, 64, 246);
+  font-family: cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+/* CSS for TextEntry component */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px; 
+  margin: 70px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.textEntryTitle1{
+color:blueviolet; 
+font-size: 40px;
+}
+
+.area1{
+  width: 750px;
+  height: 600px;
+  resize: none;
+  font-size: 20px;
+ background-color: rgb(252, 151, 151);
+}
+
+.btn1{
+  background-color:orange;
+  padding:20px;
+  align-items: center;
+  margin:0px auto; 
+}
+
+
+/* Additional styles for TextAnalysis component textarea */
+
+.textDisplayTitle{ 
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.textDisplay{
+  margin-top: 50px;
+  width: 750px;
+  height: 600px;
+  resize: none;
+  font-size: 20px;
+ background-color: pink;
+} 
+
+/* TextAnalysis Component 
+.textAnalysisTitle{
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.textAnalysis{
+  margin-top: 50px;
+  width: 800px;
+  height: 600px;
+  resize: none;
+  font-size: 20px;
+ background-color: rgb(139, 139, 240); 
+}
+ */
